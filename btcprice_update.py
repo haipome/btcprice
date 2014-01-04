@@ -33,7 +33,7 @@ def main():
 		sys.exit(1)
 
 	time_str = datetime.datetime.now().strftime('%Y-%m-%d %H:%M')
-	msg = u'BTC 最近成交价: %.2f, LTC 最新成交价: %.2f, 数据来源: OkCoin, 更新时间: %s' % \
+	msg = u'BTC 最新成交价: %.2f, LTC 最新成交价: %.2f, 数据来源: OkCoin, 更新时间: %s' % \
 	      (okcoin_btc_price, okcoin_ltc_price, time_str)
 
 	access_token = 'your_access_token'
